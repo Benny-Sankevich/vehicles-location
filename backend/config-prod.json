@@ -1,0 +1,7 @@
+{
+  "isProduction": true,
+  "isDevelopment": false,
+  "mongodb": {
+    "connectionString": "mongodb+srv://admin:pass4admin!@supermarket.xuh5q.mongodb.net/Vehicles?retryWrites=true&w=majority"
+  }
+}
