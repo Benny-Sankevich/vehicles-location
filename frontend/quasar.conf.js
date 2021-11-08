@@ -56,7 +56,7 @@ module.exports = configure(function (ctx) {
       vueRouterMode: 'hash', // available values: 'hash', 'history'
       env: {
         BASE_API_URL: ctx.dev ? "http://127.0.0.1:3001/api/" : "https://vehicle-location.herokuapp.com/api/",
-        apiKey: 'AIzaSyAyTkHhVfvSvqEKkUg9OYP_t7owAbZPuYg'
+        apiKey: ''
       },
       // transpile: false,
       // publicPath: '/',
