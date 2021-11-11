@@ -84,31 +84,6 @@ export default defineComponent({
     let vehiclesData = ref(null);
     let triangleCoords = ref([]);
 
-    // const cities = {
-    //   chicago: {
-    //     lat: 51.4743499756,
-    //     lng: -0.0410833322,
-    //   },
-    //   newyork: {
-    //     lat: 51.4694976807,
-    //     lng: -0.0493916683,
-    //   },
-    // };
-
-    // const circles = {};
-
-    // for (const key in cities) {
-    //   circles[key] = {
-    //     center: cities[key],
-    //     radius: 25,
-    //     strokeColor: '#FF0000',
-    //     strokeOpacity: 0.8,
-    //     strokeWeight: 2,
-    //     fillColor: '#FF0000',
-    //     fillOpacity: 0.35,
-    //   };
-    // }
-
     let circlesOptions = computed(() => {
       return triangleCoords.value.map((x) => {
         return {
