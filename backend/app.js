@@ -11,7 +11,7 @@ server.use(express.json());
 //Routing
 server.use("/api/vehicles-location", vehiclesLocationController);
 
-server.use(express.static(path.join(__dirname, "./frontend")));
+//server.use(express.static(path.join(__dirname, "./frontend")));
 
 server.use("*", (request, response) => {
     if (process.env.NODE_ENV === "production") {
