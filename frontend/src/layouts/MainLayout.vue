@@ -3,7 +3,7 @@
     <q-header bordered class="bg-primary text-white" height-hint="98">
       <q-toolbar>
         <q-toolbar-title>
-          <q-img src="../../public/images/logo.png" style="max-width: 300px" />
+          <q-img src="../../public/images/Logo.png" style="width: 180px; height: 70px" />
         </q-toolbar-title>
       </q-toolbar>
 
